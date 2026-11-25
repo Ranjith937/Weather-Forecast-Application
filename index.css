@@ -1,0 +1,90 @@
+html{
+    font-family : "Poppins", sans-serif;
+    font-size : 1rem;
+}
+body{
+    margin : 0;
+    padding : 0;
+}
+main{
+    max-width : 700px;
+    margin : 10px auto;
+}
+h1{
+    font-size : 4rem;
+    margin : 0px;
+}
+.search-container{
+    align-items : center;
+}
+.location{
+    width : 27rem;
+    height : 2.3rem;
+    border : 2px solid black;
+    border-radius : 1rem;
+    padding-left : 1rem;
+    font-size : 1rem;
+}
+.search{
+    width : 2rem;
+    height : 2rem;
+    border-radius : 0.5rem;
+    border : none;
+    background-color : white;
+    transform : translateX(-2.9rem);
+    font-size : 1rem;
+    transition : background-color 0.3s, color 0.3s;
+}
+.search:hover{
+    background-color: black;
+    color : white;
+}
+.search:active{
+    opacity : 0.8;
+}
+.weather-type, .present-location{
+    font-size : 1.2rem;
+    transform : translateY(5px);
+    display : inline-block;
+}
+.present-location{
+    margin-left : 4rem;
+}
+.weather-container{
+    display : flex;
+    align-items : center;
+    gap : 2rem;
+    transform : translateY(-10px);
+}
+.weather-logo{
+    color : black;
+    font-size : 7rem;
+}
+.weather-celsius{
+    font-size : 6rem;
+}
+.advice-header{
+    font-size : 1.7rem;
+    font-weight : bold;
+    margin-bottom : 1rem;
+}
+.things-container{
+    display : flex;
+    align-items : center;
+    gap : 1rem;
+}
+.todo{
+    height : 10rem;
+    width: 10rem;
+    border : 2px solid black;
+    border-radius : 1rem;
+}
+.number{
+    font-size : 2rem;
+    font-weight : bold;
+    text-align : center;
+    margin : 16px;
+}
+.advice{
+    text-align : center;
+}
